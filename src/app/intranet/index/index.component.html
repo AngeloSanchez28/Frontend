@@ -1,0 +1,198 @@
+<section class="resumen contenedor">
+    <div class="miniperfil">
+        <div class="perfil1">
+            <img class="shi" src="./assets/perfil.png"  alt="">
+        </div>
+        <div class="perfil1 letra-perfil">
+            <h4 >Rusbel Abanto Machuca</h4>
+            <h4 >@Ruvercitotupapi</h4>
+        </div>
+    </div>
+    <div class="medallas">
+        <h1 class="titulo">Titulos obtenidos</h1>
+        <div class="interior">
+            <div>
+                <img class="img-medallas" src="./assets/oro.png" alt="">
+            </div>
+            <div>
+                <h1>2</h1>
+                <h5>Medalla de oro</h5>
+            </div>
+        </div>
+        <div class="interior">
+            <div>
+                <img class="img-medallas" src="./assets/plata.png" alt="">
+            </div>
+            <div>
+                <h1>2</h1>
+                <h5>Medalla de plata</h5>
+            </div>
+        </div>
+        <div class="interior">
+            <div>
+                <img class="img-medallas" src="./assets/bronce.png" alt="">
+            </div>
+            <div>
+                <h1>4</h1>
+                <h5>Medalla de bronce</h5>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contenedor">
+    <div class="minicontenedor" id="minicontenedor1">
+        <div class="habitos">
+            <div class="nombre">
+                <h1>Hábitos Establecidos</h1>
+            </div>
+            <div class="iconos">
+                <button class="contenedor-icono button" (click)="habito1()" >
+                    <img class="imagen-icono" src="./assets/estandar.png" alt="">
+                </button>
+                <button class="contenedor-icono" (click)="habito2()" >
+                    <img class="imagen-icono" src="./assets/persona.png" alt="">
+                </button>
+                <button class="contenedor-icono" (click)="habito3()" >
+                    <img class="imagen-icono" src="./assets/grupo.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div>
+            <table class="tabla">
+
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Dormir 8 horas</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Comer las 3 comidas del dia</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Tomar 9 vasos al dia</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Limitar el consumo de alcohol y tabaco</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Limitar el consumo de alcohol y tabaco</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="minicontenedor" id="minicontenedor2">
+        <div class="habitos">
+            <div class="nombre">
+                <h1>Hábitos Personalizados</h1>
+            </div>
+            <div class="iconos">
+                <button class="contenedor-icono" (click)="habito1()">
+                    <img class="imagen-icono" src="./assets/estandar.png" alt="">
+                </button>
+                <button class="contenedor-icono button" (click)="habito2()">
+                    <img class="imagen-icono" src="./assets/persona.png" alt="">
+                </button>
+                <button class="contenedor-icono" (click)="habito3()">
+                    <img class="imagen-icono" src="./assets/grupo.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div>
+            <form id="habitoPersonal2">
+                <input type="text" id="fname2" name="fname personal" placeholder="Tu nuevo habito personal" required>
+                <button class="enviar">Enviar</button>
+            </form>
+            <table class="tabla">
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Dormir 8 horas</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+                <!-- Agrega aquí más filas si es necesario -->
+            </table>
+        </div>
+    </div>
+
+
+    <div class="minicontenedor" id="minicontenedor3">
+        <div class="habitos">
+            <div class="nombre">
+                <h1>Hábitos En Grupo</h1>
+            </div>
+            <div class="iconos">
+                <button class="contenedor-icono" (click)="habito1()">
+                    <img class="imagen-icono" src="./assets/estandar.png" alt="">
+                </button>
+                <button class="contenedor-icono" (click)="habito2()">
+                    <img class="imagen-icono" src="./assets/persona.png" alt="">
+                </button>
+                <button class="contenedor-icono button" (click)="habito3()">
+                    <img class="imagen-icono" src="./assets/grupo.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div>
+            <form id="habitoPersonal3">
+                <input type="text" id="fname3" name="fname personal" placeholder="Tu nuevo habito en grupo" required>
+                <button class="enviar">Enviar</button>
+            </form>
+            <table class="tabla">
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Dormir 8 horas</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+                <tr class="trow">
+                    <td><button class="boton1"><i class="bi bi-check2"></i></button></td>
+                    <td style="width: 500px;">
+                        <div style="justify-content: end; padding-left: 20px; background: #fff; height: 30px;">
+                            <p style="padding-top: 6px;">Limifasfasfasfbaco</p>
+                        </div>
+                    </td>
+                    <td><button class="boton2"><i class="bi bi-x"></i></button></td>
+                </tr>
+                <!-- Agrega aquí más filas si es necesario -->
+            </table>
+        </div>
+    </div>
+
+
+</section>
