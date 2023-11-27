@@ -8,7 +8,6 @@ const routes: Routes = [
   { path: '',
     component: IntranetComponent,
     children: [
-      {path: '', component: IntranetComponent },
       {path: 'index', component: IndexComponent },
       {path: 'informacion', component: InformacionComponent },
     ],

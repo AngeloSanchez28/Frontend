@@ -5,6 +5,7 @@ import {intranetRoutingModule} from "./intranet-routing.module";
 import {RouterModule} from "@angular/router";
 import { InformacionComponent } from './informacion/informacion.component';
 import { IntranetComponent } from './intranet.component';
+import {LayoutModule} from "../layout/layout.module";
 
 
 
@@ -15,9 +16,10 @@ import { IntranetComponent } from './intranet.component';
     IntranetComponent
   ],
   imports: [
-      CommonModule,
-      intranetRoutingModule,
-      RouterModule,
+    CommonModule,
+    intranetRoutingModule,
+    RouterModule,
+    LayoutModule,
   ]
 })
 export class IntranetModule { }
