@@ -86,7 +86,7 @@ td button {
 }
 
 
-.alimentos {
+.ejercicio {
   justify-content: start;
   display: flex;
   margin: 6px;
@@ -101,23 +101,9 @@ td button {
   justify-items: center;
 }
 
-.alimentos a {
+.ejercicio a {
   margin-inline: 5px;
 }
-
-.infohuevos {
-  margin-left: 80px;
-}
-
-.infohuevos ul {
-  padding-top: 30px;
-}
-
-.infohuevos ul li{
-  font-size: 20px;
-  margin-block: 6px;
-}
-
 
 .activo {
   font-size: 18px;
@@ -158,19 +144,47 @@ td button {
 .no{
   display: none;
 }
-
-#informacion1{
-  display: block;
+.grancontenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-#informacion2{
-  display: none;
+.planes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.ejercicios{
+  background-color: hsla(171, 47%, 52%, 0.27);
+  width: 320px;
+  height: 180px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 8fr 5fr;
+}
+.ejercicios div{
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+.ejercicios div img{
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+#ver-detalles button{
+  margin: 5px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #4ABDAC;
+  color: white;
+  width: 80px;
+  height: 27px;
+  font-size: 13px;
+  cursor: pointer;
 }
 
-#informacion3{
-  display: none;
-}
 
-#informacion4{
-  display: none;
-}
