@@ -10,6 +10,8 @@ import { EjercicioComponent } from './ejercicio/ejercicio.component';
 import { RecetaComponent } from './receta/receta.component';
 import { VideoComponent } from './video/video.component';
 import { MainInformacionComponent } from './main-informacion/main-informacion.component';
+import { PruebaComponent } from './prueba/prueba.component';
+import {MatTableModule} from "@angular/material/table";
 
 
 
@@ -21,14 +23,16 @@ import { MainInformacionComponent } from './main-informacion/main-informacion.co
     EjercicioComponent,
     RecetaComponent,
     VideoComponent,
-    MainInformacionComponent
+    MainInformacionComponent,
+    PruebaComponent
   ],
-    imports: [
-        CommonModule,
-        intranetRoutingModule,
-        RouterModule,
-        LayoutModule,
-        NgOptimizedImage,
-    ]
+  imports: [
+    CommonModule,
+    intranetRoutingModule,
+    RouterModule,
+    LayoutModule,
+    NgOptimizedImage,
+    MatTableModule,
+  ]
 })
 export class IntranetModule { }

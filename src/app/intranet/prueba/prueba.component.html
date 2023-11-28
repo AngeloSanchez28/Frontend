@@ -1,0 +1,8 @@
+<mat-table [dataSource]="dataSource">
+  <!-- Definir las columnas de la tabla -->
+  <ng-container matColumnDef="habito">
+    <mat-header-cell *matHeaderCellDef> Habito </mat-header-cell>
+    <mat-cell *matCellDef="let habito"> {{ habito.id }} </mat-cell>
+  </ng-container>
+
+</mat-table>

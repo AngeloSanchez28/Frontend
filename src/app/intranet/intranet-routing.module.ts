@@ -7,6 +7,7 @@ import {EjercicioComponent} from "./ejercicio/ejercicio.component";
 import {RecetaComponent} from "./receta/receta.component";
 import {VideoComponent} from "./video/video.component";
 import {MainInformacionComponent} from "./main-informacion/main-informacion.component";
+import {PruebaComponent} from "./prueba/prueba.component";
 
 const routes: Routes = [
   { path: '',
@@ -18,6 +19,7 @@ const routes: Routes = [
       {path: 'informacion', component: EjercicioComponent},
       {path: 'informacion', component: RecetaComponent},
       {path: 'informacion', component: VideoComponent},
+      {path: 'prueba', component: PruebaComponent},
     ],
   }
 ];
